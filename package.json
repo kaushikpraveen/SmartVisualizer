@@ -1,0 +1,35 @@
+{
+  "name": "VisualRecognitionNodejsStarterApp",
+  "version": "0.1.2",
+  "description": "A sample nodejs app for Bluemix that use the Visual Recognition service",
+  "dependencies": {
+    "body-parser": "~1.14.0",
+    "errorhandler": "~1.4.2",
+    "express": "~4.13.3",
+    "multer": "~1.0.5",
+    "request": "~2.65.0",
+    "validator": "~4.1.0",
+    "watson-developer-cloud": "~0.10.6"
+  },
+  "engines": {
+    "node": ">=0.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/watson-developer-cloud/visual-recognition-nodejs.git"
+  },
+  "author": "IBM Corp.",
+  "contributors": [
+    {
+      "name": "German Attanasio Ruiz",
+      "email": "germanatt@us.ibm.com"
+    }
+  ],
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/watson-developer-cloud/visual-recognition-nodejs/issues"
+  },
+  "scripts": {
+    "start": "node app.js"
+  }
+}

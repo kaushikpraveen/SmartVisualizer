@@ -1,0 +1,17 @@
+---
+declared-services:
+  visual-recognition-service:
+    label: visual_recognition
+    plan: free
+  text-to-speech-service:
+    label: text_to_speech
+    plan: standard
+applications:
+- services:
+  - visual-recognition-service
+  - text-to-speech-service
+  name: SmartVisualizer
+  memory: 128M
+  command: node app.js
+  path: .
+  host: SmartVisualizer
