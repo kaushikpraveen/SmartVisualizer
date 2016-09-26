@@ -3,3 +3,6 @@ Usage of smartphone to capture images is a very common occurrence today. However
 
 #Note-
 *IBM Bluemix Visual recognition Service not binding properly, have to wait for 24 hrs to obtain new key to bind again.. please try again later..Everything else is correct..the app will be redeployed again soon.
+
+Link to DevOps Git Repository- https://hub.jazz.net/project/praveenkaushik/SmartVisualizer
+
